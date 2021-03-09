@@ -1,7 +1,7 @@
 const CustomError = require("../extensions/custom-error");
 
 module.exports = function countCats(matrix) {
-  throw new CustomError('Not implemented');
+
   if (!matrix || matrix == undefined) {
     return 0;
   }
